@@ -2,7 +2,7 @@ import UserProfile from "./UserProfile";
 
 const VideoCard = () => {
   return (
-    <article className="flex flex-col justify-center w-60 mt-4 hover:bg-slate-200 rounded-3xl p-2">
+    <article className="flex flex-col justify-center w-60 mt-4 drop-shadow-2xl hover:text-white hover:scale-105 transition-all duration-300 ease-in-out hover:bg-zinc-700 cursor-pointer rounded-3xl p-2">
       <div className="flex flex-col justify-center rounded-2xl">
         <div className="flex flex-col pb-2 rounded-2xl shadow-sm bg-white bg-opacity-0">
           <div className="flex flex-col justify-center text-white rounded-2xl">
@@ -22,14 +22,14 @@ const VideoCard = () => {
               <UserProfile className=" text-lg w-7 h-7" />
               <div className="flex flex-row ">
                 <div className="flex justify-between text-xs tracking-normal leading-5">
-                  <p className=" justify-center items-center font-medium text-neutral-800">
+                  <p className=" justify-center items-center font-medium  ">
                     Student Name
                   </p>
                   <p className=" text-gray-500">・1 day ago</p>
                 </div>
               </div>
             </div>
-            <p className="flex text-xs font-medium mt-2 tracking-normal leading-6 text-neutral-800">
+            <p className="flex text-xs font-medium mt-2 tracking-normal leading-6 ">
               Description - 31-01-2024
             </p>
             <div className="flex overflow-hidden relative pl-16 flex-row justify-between mt-4 w-full text-xs tracking-normal leading-5">
@@ -44,13 +44,14 @@ const VideoCard = () => {
                   3
                 </span>
               </div>
-              <div className="flex flex-row">
+              <div className="flex flex-row ">
                 <img
                   loading="lazy"
                   src="../src/assets/messages.svg"
                   className=" w-4"
                   alt=""
                 />
+                
                 <span className="relative justify-center items-start px-1">
                   0
                 </span>
