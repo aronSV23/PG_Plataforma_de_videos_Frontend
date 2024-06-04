@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import UserProfile from "./UserProfile";
 
 const VideoCard = () => {
@@ -6,7 +7,7 @@ const VideoCard = () => {
       <div className="flex flex-col justify-center rounded-2xl">
         <div className="flex flex-col pb-2 rounded-2xl shadow-sm bg-white bg-opacity-0">
           <div className="flex flex-col justify-center text-white rounded-2xl">
-            <section className="flex flex-col py-2.5 pl-4 w-full rounded-2xl bg-neutral-800 aspect-video">
+            <Link to='/video' >        <section className="flex flex-col py-2.5 pl-4 w-full rounded-2xl bg-neutral-800 aspect-video">
               <header className="flex gap-5 justify-between items-start text-sm tracking-normal leading-6 whitespace-nowrap max-md:mr-2">
                 <div className="justify-center items-center px-1 bg-black rounded-md w-[33px] ">
                   1.00
@@ -16,6 +17,7 @@ const VideoCard = () => {
                 3 min
               </span>
             </section>
+            </Link>    
           </div>
           <section className="flex flex-col mx-4 mt-4 max-md:mx-2.5">
             <div className="flex flex-row gap-2 items-center">

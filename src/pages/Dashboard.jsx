@@ -5,7 +5,7 @@ import VideoCard from "../components/VideoCard";
 function Dashboard() {
   return (
     <div className="flex gap-0 bg-white max-md:flex-wrap">
-      <AsideBar />
+      <AsideBar isOpen={true}/>
       <main className="flex flex-col grow shrink-0 basis-0 w-fit">
         <section className="flex flex-col justify-center pb-16  ">
           <HeaderDash />
