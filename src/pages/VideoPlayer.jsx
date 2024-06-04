@@ -52,7 +52,7 @@ function VideoPlayer() {
           <section className="flex flex-col w-[78%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow pt-6 max-md:mt-4 max-md:max-w-full">
               <div className="flex flex-col justify-center px-6 max-md:pl-5 max-md:max-w-full">
-                <div className="flex flex-col justify-center pb-20 bg-black aspect-video rounded-lg max-md:max-w-full">
+                <div className="flex flex-col justify-center items-center self-center pb-20 bg-black w-[1200px] aspect-video rounded-lg max-md:max-w-full">
                   <div className="flex flex-col justify-center items-center pb-20 pl-10 mt-2.5 max-md:max-w-full">
                     <div className="flex justify-center items-center mt-48 max-w-full w-[120px] max-md:mt-10">
                       <img
