@@ -33,6 +33,16 @@ function TaskFormPage() {
     <div className="flex items-center justify-center h-full">
       <div className="bg-white max-w-md w-full p-10 rounded-md">
         <form onSubmit={onSubmit}>
+        <label htmlFor="theme" className="text-gray-800">
+            Theme
+          </label>
+          <input
+            type="text"
+            placeholder="Theme"
+            {...register("theme")}
+            className="w-full bg-gray-200 text-gray-800 px-4 py-2 rounded-md my-2"
+            autoFocus
+          />
           <label htmlFor="title" className="text-gray-800">
             Title
           </label>

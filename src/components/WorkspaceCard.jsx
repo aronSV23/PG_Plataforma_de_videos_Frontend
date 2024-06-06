@@ -1,11 +1,11 @@
 
-function WorkspaceCard() {
+function WorkspaceCard({name}) {
     return (
       <section className="flex flex-col justify-center px-4 py-2.5 w-full bg-white rounded-2xl border border-solid border-gray-500 border-opacity-20 mb-5">
         <article className="flex gap-0 justify-center">
           <div className="flex flex-col">
             <h2 className="justify-center text-sm font-bold tracking-normal leading-6 text-neutral-800">
-              Student Workspace
+              {name}'s Workspace
             </h2>
             <p className="text-xs tracking-normal leading-5 text-gray-500">1 member</p>
           </div>
